@@ -53,7 +53,7 @@ Superstore-Sales-Analysis/
 | Notebook | Description |
 |----------|-------------|
 | **01_data_loading.ipynb** | Initial data inspection, data types, missing values, duplicates, and descriptive statistics. |
-| **02_data_cleaning.ipynb** | Data preprocessing, missing value handling, date conversion, outlier detection, and PostgreSQL export. |
+| **02_data_cleaning.ipynb** | Data preprocessing, missing value handling, date conversion, duplicate and categorical consistency checks, outlier detection, and PostgreSQL export. |
 | **03_eda.ipynb** | Exploratory analysis with visualizations and business insights. |
 
 ---
@@ -104,7 +104,7 @@ Interactive dashboard with:
 The analysis revealed several important business insights:
 
 - **Technology** is the highest-performing product category, generating the largest share of revenue.
-- Sales exhibit **clear seasonality**, with the strongest performance in **September, November, and December**.
+- Sales exhibit **clear seasonality**, with the strongest performance in **September, November, and December**, and the weakest in **January** and **February**.
 - **Consumer** is the largest customer segment, while **Home Office** contributes the least.
 - **New York City** and **California** are among the strongest-performing locations in terms of sales.
 - High-value transactions are primarily associated with premium technology products and represent legitimate business activity rather than data quality issues.
